@@ -49,6 +49,8 @@ config.loss.contrastive_clamp_bound = -70.0 # Numerical stability bound
 The contrastive term applies synthetic E(B-V) reddening (0.01-0.3 mag) and encourages the model to assign low probability to artificially reddened stars.
 
 ## Data Structure
+Data should all appear in the Data folder and should match the naming convention outlined in datasets.py and the configs.
+
 
 FLOWER processes raw Gaia DR3 + Pan-STARRS1 (PS1) observational data with optional 2MASS infrared photometry. **All coordinate transformations, color calculations, and absolute magnitude computations happen during training within the evidence maximization loss function.**
 
