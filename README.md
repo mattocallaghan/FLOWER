@@ -27,7 +27,7 @@ class EvidenceMaxLoss:
     
     todo: implement selection functions in more complex manner, currently we make 
     selection function cuts so that the selection function is approximately 1 everywhere on the sky
-    
+    see https://github.com/gaia-unlimited/gaiaunlimited for selection function implementations
     Trains p(colours,mag|Z,R) by marginalizing over distance with a distance prior
     and importance sampling correction. Includes contrastive learning for extinction.
     """
@@ -172,8 +172,7 @@ The framework processes Gaia DR3 + PS1 photometric catalogs:
 ## Selection Functions
 
 The data used in the paper was cut so that the cmpleteness is approximately uniform across the sky and that the main selection effects are due to Malmquist bias. Codebase needs to be updated to fully account for the selection effects if less cuts are made
-
-
+See https://github.com/gaia-unlimited/gaiaunlimited.
 
 
 
