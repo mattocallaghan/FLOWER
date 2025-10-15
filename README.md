@@ -1,6 +1,6 @@
-# FLOWER: Flow-based Learning Of stellar Wavelength-dependent Extinction Representation
+# FLOWER: 
 
-FLOWER is a normalizing flow-based framework for modeling stellar photometry and extinction using evidence maximization. It uses Gaia and Pan-STARRS1 (PS1) photometric data to learn the intrinsic stellar color-magnitude distribution as a function of galactocentric position, marginalizing over distance uncertainties through importance sampling.
+Implementation of FLOW based Estimation of Reddening (FLOWER) as outlined in O'Callaghan et al 2025.
 
 ## Overview
 
